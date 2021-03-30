@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-//В Trie-дереве найти все слова, содержащие символы заданного множества
+//Г‚ Trie-Г¤ГҐГ°ГҐГўГҐ Г­Г Г©ГІГЁ ГўГ±ГҐ Г±Г«Г®ГўГ , Г±Г®Г¤ГҐГ°Г¦Г Г№ГЁГҐ Г±ГЁГ¬ГўГ®Г«Г» Г§Г Г¤Г Г­Г­Г®ГЈГ® Г¬Г­Г®Г¦ГҐГ±ГІГўГ 
 
 const int d = 26;
 struct TrieNode {
@@ -28,3 +28,4 @@ private:
 	void print(string s, TrieNode* p);
 	void search(TrieNode* p, string _search, string _print);
 };
+ 
