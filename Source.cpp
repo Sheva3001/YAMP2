@@ -10,7 +10,7 @@ int main() {
 	ifstream input("data.txt");
 	
 	if (!input.is_open())
-		cout << "Îøèáêà îòêğûòèÿ ôàéëà" << endl;
+		cout << "ĞÑˆĞ¸Ğ±ĞºĞ° Ğ¾Ñ‚ĞºÑ€Ñ‹Ñ‚Ğ¸Ñ Ñ„Ğ°Ğ¹Ğ»Ğ°" << endl;
 	else {
 		Trie a;
 		string data;
